@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import grapesjs from "grapesjs";
 import grapesjspresetwebpage from "grapesjs-preset-webpage";
+
+// Dependencies 
 import grapesjsaviary from "grapesjs-aviary";
 import grapesjsblocksbasic from "grapesjs-blocks-basic";
 import grapesjscomponentcountdown from "grapesjs-component-countdown";
@@ -26,7 +28,7 @@ export const WebBuilder = () => {
         grapesjsblocksbasic,
         grapesjscomponentcountdown,
         grapesjsnavbar,
-        grapesjspluginexport ,
+        grapesjspluginexport,
         grapesjspluginforms,
         grapesjspresetwebpage
       ],
