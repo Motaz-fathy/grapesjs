@@ -22,9 +22,3 @@ html {
 ::-webkit-scrollbar{
   display: none;
 }
-.btn {
-  width: 300px;
-  height: 35px;
-  background-color: beige;
-  color: black;
-}
